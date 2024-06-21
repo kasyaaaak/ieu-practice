@@ -1,0 +1,103 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #277739;
+  border-bottom: 3px solid #f2c627;
+  text-align: center;
+  padding: 35px 0;
+  color: #fff;
+}
+
+.header__place {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.header__info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.header__info-name,
+.header__info-group {
+  font-size: 16px;
+}
+
+.header__info-name span,
+.header__info-group span {
+  font-weight: 600;
+  color: #f2c627;
+}
+
+.info {
+  margin-bottom: 60px;
+}
+
+.textbox__title {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 50px 0 35px;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.textbox__paragraph,
+.textbox__item {
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+.paragraph-margin {
+  margin-bottom: 30px;
+}
+
+.textbox__list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.textbox__item {
+  list-style: inside;
+}
+
+button {
+  background-color: #277739;
+  border: 2px solid #277739;
+  color: #fff;
+  padding: 16px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #277739;
+}
