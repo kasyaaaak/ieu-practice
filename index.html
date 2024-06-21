@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Практика</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h2 class="header__place">Міжнародний європейський університет</h2>
+            <h1 class="header__title">Приклади застосування push-повідомлень</h1>
+            <div class="header__info">
+                <p class="header__info-name"><span>Виконала: </span>Кас’янова Поліна Євгеніївна</p>
+                <p class="header__info-group"><span>Група: </span>ІПЗ-21-301</p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="info">
+                <div class="info__textbox">
+                    <h3 class="textbox__title">1. Що таке Push-повідомлення?</h3>
+                    <p class="textbox__paragraph"><span class="bold-text">Push-повідомлення</span> – це короткі
+                        повідомлення, які веб-ресурс або
+                        мобільний
+                        застосунок надсилає користувачеві на його пристрій. Вони з’являються на екрані навіть у тому
+                        разі, якщо застосунок або сайт наразі не запущено.</p>
+                </div>
+                <div class="info__textbox">
+                    <h3 class="textbox__title">2. Для чого вони потрібні?</h3>
+                    <p class="textbox__paragraph paragraph-margin">Такі прості повідомлення використовуються для різних
+                        цілей:</p>
+                    <ul class="textbox__list">
+                        <li class="textbox__item">Інформування користувачів про нові події або пропозиції. Наприклад,
+                            інтернет-магазин може відправити push-повідомлення про розпродаж або появу нового товару.
+                        </li>
+                        <li class="textbox__item">Повернення користувачів на сайт або в застосунок. Пуш-повідомлення
+                            може містити нагадування про незавершену операцію або пропозицію відвідати певний розділ
+                            сайту.</li>
+                        <li class="textbox__item">Просування товарів або послуг. Push-повідомлення можуть
+                            використовуватися для реклами нових продуктів або послуг.</li>
+                    </ul>
+                </div>
+                <div class="info__textbox">
+                    <h3 class="textbox__title">3. Класифікація push-повідомлень</h3>
+                    <p class="textbox__paragraph paragraph-margin">Залежно від свого функціонального навантаження,
+                        push-повідомлення
+                        класифікуються таким чином:</p>
+                    <ul class="textbox__list">
+                        <li class="textbox__item"><span class="bold-text">Контентні повідомлення.</span> Ці повідомлення
+                            призначені для анонсів новин,
+                            представлення нових продуктів, оголошення акцій і надання спеціальних пропозицій.
+                        </li>
+                        <li class="textbox__item"><span class="bold-text">Транзакційні повідомлення.</span> Їхнє основне
+                            завдання — інформування про
+                            статус замовлення, повідомлення про наявність товару на складі та підтвердження оплати.</li>
+                        <li class="textbox__item"><span class="bold-text">Тригерні повідомлення:</span> Ці повідомлення
+                            націлені на взаємодію з
+                            користувачем на більш персональному рівні. Вони містять привітальні повідомлення,
+                            нагадування про покинутий кошик і висловлення подяки за здійснене замовлення.</li>
+                    </ul>
+                </div>
+                <div class="info__textbox">
+                    <h3 class="textbox__title">Приклад №1 (Звичайне повідомлення):</h3>
+                    <p class="textbox__paragraph paragraph-margin">Після натискання кнопки, користувач отримує звичайне
+                        push-повідомлення. Такий механізм є прикладом стандартного способу спілкування з користувачем.
+                    </p>
+                    <button onclick="showNotification()">Отримати повідомлення</button>
+                </div>
+                <div class="info__textbox">
+                    <h3 class="textbox__title">Приклад №2 (Повідомлення із затримкою):</h3>
+                    <p class="textbox__paragraph paragraph-margin">Це приклад push-повідомлення, в якому після
+                        натискання кнопки користувач чекає певний час. У нашому випадку, це 5 секунд, після чого
+                        користувач отримує повідомлення.</p>
+                    <button onclick="scheduleNotification()">Отримати повідомлення</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
